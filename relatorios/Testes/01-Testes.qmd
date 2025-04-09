@@ -1,0 +1,62 @@
+---
+title: "Untitled"
+format: 
+  html:
+    toc: true
+    number-sections: true
+editor: source
+---
+
+# Título Principal
+
+## Subseção
+
+texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto.
+
+texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto.
+
+*-espressão em itálico*, **espressão em negrito**
+
+## Criando uma Lista Não Ordenada
+
+- Item 1
+- Item 2
+    - Subitem 1
+    - Subitem 2
+    
+    ## Criando Uma Lista Ordenada
+    
+    1. Item 1
+    
+    2. Item 2
+    
+    3. Item 3
+    
+    ## Inserindo links para páginas da Web
+    
+    [IFMG - Campus Formiga](https://formiga.ifmg.edu.br/){target="_blank"}
+    
+    ## Células de Códigos
+    
+    para inserir uma célula de código R em um arquivo Quarto, podmeos usar o 
+    atalho 'Crta + Alt + i'
+    
+```{r}
+# Simulando uma VA com distribuição normal padrão.
+x <- rnorm(1000)
+
+# gráfico de linha da variável simulada
+plot(x, type = "l")
+```
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
